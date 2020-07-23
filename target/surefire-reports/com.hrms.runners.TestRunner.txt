@@ -1,0 +1,48 @@
+-------------------------------------------------------------------------------
+Test set: com.hrms.runners.TestRunner
+-------------------------------------------------------------------------------
+Tests run: 8, Failures: 0, Errors: 8, Skipped: 0, Time elapsed: 2.158 sec <<< FAILURE!
+Error message validation while invalid login(Login)  Time elapsed: 0.709 sec  <<< ERROR!
+java.lang.NullPointerException
+	at com.hrms.utils.ConfigsReader.getProperty(ConfigsReader.java:36)
+	at com.hrms.testbase.BaseClass.setUp(BaseClass.java:24)
+	at com.hrms.steps.Hooks.start(Hooks.java:14)
+
+Error message validation while invalid login(Login)  Time elapsed: 0.724 sec  <<< ERROR!
+java.lang.NullPointerException
+	at com.hrms.utils.CommonMethods.takeScreenshot(CommonMethods.java:259)
+	at com.hrms.steps.Hooks.end(Hooks.java:22)
+
+Error message validation while invalid login(Login)  Time elapsed: 0.067 sec  <<< ERROR!
+java.lang.NullPointerException
+	at com.hrms.utils.ConfigsReader.getProperty(ConfigsReader.java:36)
+	at com.hrms.testbase.BaseClass.setUp(BaseClass.java:24)
+	at com.hrms.steps.Hooks.start(Hooks.java:14)
+
+Error message validation while invalid login(Login)  Time elapsed: 0.068 sec  <<< ERROR!
+java.lang.NullPointerException
+	at com.hrms.utils.CommonMethods.takeScreenshot(CommonMethods.java:259)
+	at com.hrms.steps.Hooks.end(Hooks.java:22)
+
+Error message validation while invalid login(Login)  Time elapsed: 0.068 sec  <<< ERROR!
+java.lang.NullPointerException
+	at com.hrms.utils.ConfigsReader.getProperty(ConfigsReader.java:36)
+	at com.hrms.testbase.BaseClass.setUp(BaseClass.java:24)
+	at com.hrms.steps.Hooks.start(Hooks.java:14)
+
+Error message validation while invalid login(Login)  Time elapsed: 0.069 sec  <<< ERROR!
+java.lang.NullPointerException
+	at com.hrms.utils.CommonMethods.takeScreenshot(CommonMethods.java:259)
+	at com.hrms.steps.Hooks.end(Hooks.java:22)
+
+Error message validation while invalid login(Login)  Time elapsed: 0.034 sec  <<< ERROR!
+java.lang.NullPointerException
+	at com.hrms.utils.ConfigsReader.getProperty(ConfigsReader.java:36)
+	at com.hrms.testbase.BaseClass.setUp(BaseClass.java:24)
+	at com.hrms.steps.Hooks.start(Hooks.java:14)
+
+Error message validation while invalid login(Login)  Time elapsed: 0.035 sec  <<< ERROR!
+java.lang.NullPointerException
+	at com.hrms.utils.CommonMethods.takeScreenshot(CommonMethods.java:259)
+	at com.hrms.steps.Hooks.end(Hooks.java:22)
+

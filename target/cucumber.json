@@ -1,0 +1,417 @@
+[
+  {
+    "line": 3,
+    "elements": [
+      {
+        "start_timestamp": "2020-06-13T15:44:17.848Z",
+        "before": [
+          {
+            "result": {
+              "error_message": "java.lang.NullPointerException\r\n\tat com.hrms.utils.ConfigsReader.getProperty(ConfigsReader.java:36)\r\n\tat com.hrms.testbase.BaseClass.setUp(BaseClass.java:24)\r\n\tat com.hrms.steps.Hooks.start(Hooks.java:14)\r\n",
+              "duration": 25000000,
+              "status": "failed"
+            },
+            "match": {
+              "location": "com.hrms.steps.Hooks.start()"
+            }
+          }
+        ],
+        "line": 24,
+        "name": "Error message validation while invalid login",
+        "description": "",
+        "id": "login;error-message-validation-while-invalid-login;;2",
+        "after": [
+          {
+            "result": {
+              "error_message": "java.lang.NullPointerException\r\n\tat com.hrms.utils.CommonMethods.takeScreenshot(CommonMethods.java:259)\r\n\tat com.hrms.steps.Hooks.end(Hooks.java:22)\r\n",
+              "duration": 4000000,
+              "status": "failed"
+            },
+            "match": {
+              "location": "com.hrms.steps.Hooks.end(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 2000000,
+              "status": "skipped"
+            },
+            "line": 18,
+            "name": "user enter \"Admin\" and \"Admin123\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Admin\"",
+                  "offset": 11
+                },
+                {
+                  "val": "\"Admin123\"",
+                  "offset": 23
+                }
+              ],
+              "location": "com.hrms.steps.LoginSteps.user_enter_valid_and(java.lang.String,java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 19,
+            "name": "user click on login button",
+            "match": {
+              "location": "com.hrms.steps.LoginSteps.user_click_on_login_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1000000,
+              "status": "skipped"
+            },
+            "line": 20,
+            "name": "user see \"Invalid Credentials\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Invalid Credentials\"",
+                  "offset": 9
+                }
+              ],
+              "location": "com.hrms.steps.LoginSteps.user_see(java.lang.String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@sprint5"
+          },
+          {
+            "name": "@login"
+          },
+          {
+            "name": "@reporting"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-06-13T15:44:18.045Z",
+        "before": [
+          {
+            "result": {
+              "error_message": "java.lang.NullPointerException\r\n\tat com.hrms.utils.ConfigsReader.getProperty(ConfigsReader.java:36)\r\n\tat com.hrms.testbase.BaseClass.setUp(BaseClass.java:24)\r\n\tat com.hrms.steps.Hooks.start(Hooks.java:14)\r\n",
+              "duration": 7000000,
+              "status": "failed"
+            },
+            "match": {
+              "location": "com.hrms.steps.Hooks.start()"
+            }
+          }
+        ],
+        "line": 25,
+        "name": "Error message validation while invalid login",
+        "description": "",
+        "id": "login;error-message-validation-while-invalid-login;;3",
+        "after": [
+          {
+            "result": {
+              "error_message": "java.lang.NullPointerException\r\n\tat com.hrms.utils.CommonMethods.takeScreenshot(CommonMethods.java:259)\r\n\tat com.hrms.steps.Hooks.end(Hooks.java:22)\r\n",
+              "duration": 1000000,
+              "status": "failed"
+            },
+            "match": {
+              "location": "com.hrms.steps.Hooks.end(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 18,
+            "name": "user enter \"Hello\" and \"Syntax123!\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Hello\"",
+                  "offset": 11
+                },
+                {
+                  "val": "\"Syntax123!\"",
+                  "offset": 23
+                }
+              ],
+              "location": "com.hrms.steps.LoginSteps.user_enter_valid_and(java.lang.String,java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1000000,
+              "status": "skipped"
+            },
+            "line": 19,
+            "name": "user click on login button",
+            "match": {
+              "location": "com.hrms.steps.LoginSteps.user_click_on_login_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1000000,
+              "status": "skipped"
+            },
+            "line": 20,
+            "name": "user see \"Invalid Credentials\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Invalid Credentials\"",
+                  "offset": 9
+                }
+              ],
+              "location": "com.hrms.steps.LoginSteps.user_see(java.lang.String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@sprint5"
+          },
+          {
+            "name": "@login"
+          },
+          {
+            "name": "@reporting"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-06-13T15:44:18.081Z",
+        "before": [
+          {
+            "result": {
+              "error_message": "java.lang.NullPointerException\r\n\tat com.hrms.utils.ConfigsReader.getProperty(ConfigsReader.java:36)\r\n\tat com.hrms.testbase.BaseClass.setUp(BaseClass.java:24)\r\n\tat com.hrms.steps.Hooks.start(Hooks.java:14)\r\n",
+              "duration": 3000000,
+              "status": "failed"
+            },
+            "match": {
+              "location": "com.hrms.steps.Hooks.start()"
+            }
+          }
+        ],
+        "line": 26,
+        "name": "Error message validation while invalid login",
+        "description": "",
+        "id": "login;error-message-validation-while-invalid-login;;4",
+        "after": [
+          {
+            "result": {
+              "error_message": "java.lang.NullPointerException\r\n\tat com.hrms.utils.CommonMethods.takeScreenshot(CommonMethods.java:259)\r\n\tat com.hrms.steps.Hooks.end(Hooks.java:22)\r\n",
+              "status": "failed"
+            },
+            "match": {
+              "location": "com.hrms.steps.Hooks.end(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 1000000,
+              "status": "skipped"
+            },
+            "line": 18,
+            "name": "user enter \"Admin\" and \"\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Admin\"",
+                  "offset": 11
+                },
+                {
+                  "val": "\"\"",
+                  "offset": 23
+                }
+              ],
+              "location": "com.hrms.steps.LoginSteps.user_enter_valid_and(java.lang.String,java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1000000,
+              "status": "skipped"
+            },
+            "line": 19,
+            "name": "user click on login button",
+            "match": {
+              "location": "com.hrms.steps.LoginSteps.user_click_on_login_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1000000,
+              "status": "skipped"
+            },
+            "line": 20,
+            "name": "user see \"Password cannot be empty\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Password cannot be empty\"",
+                  "offset": 9
+                }
+              ],
+              "location": "com.hrms.steps.LoginSteps.user_see(java.lang.String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@sprint5"
+          },
+          {
+            "name": "@login"
+          },
+          {
+            "name": "@reporting"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-06-13T15:44:18.103Z",
+        "before": [
+          {
+            "result": {
+              "error_message": "java.lang.NullPointerException\r\n\tat com.hrms.utils.ConfigsReader.getProperty(ConfigsReader.java:36)\r\n\tat com.hrms.testbase.BaseClass.setUp(BaseClass.java:24)\r\n\tat com.hrms.steps.Hooks.start(Hooks.java:14)\r\n",
+              "duration": 2000000,
+              "status": "failed"
+            },
+            "match": {
+              "location": "com.hrms.steps.Hooks.start()"
+            }
+          }
+        ],
+        "line": 27,
+        "name": "Error message validation while invalid login",
+        "description": "",
+        "id": "login;error-message-validation-while-invalid-login;;5",
+        "after": [
+          {
+            "result": {
+              "error_message": "java.lang.NullPointerException\r\n\tat com.hrms.utils.CommonMethods.takeScreenshot(CommonMethods.java:259)\r\n\tat com.hrms.steps.Hooks.end(Hooks.java:22)\r\n",
+              "status": "failed"
+            },
+            "match": {
+              "location": "com.hrms.steps.Hooks.end(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 18,
+            "name": "user enter \"\" and \"Syntax123!\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"\"",
+                  "offset": 11
+                },
+                {
+                  "val": "\"Syntax123!\"",
+                  "offset": 18
+                }
+              ],
+              "location": "com.hrms.steps.LoginSteps.user_enter_valid_and(java.lang.String,java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1000000,
+              "status": "skipped"
+            },
+            "line": 19,
+            "name": "user click on login button",
+            "match": {
+              "location": "com.hrms.steps.LoginSteps.user_click_on_login_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1000000,
+              "status": "skipped"
+            },
+            "line": 20,
+            "name": "user see \"Username cannot be empty\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Username cannot be empty\"",
+                  "offset": 9
+                }
+              ],
+              "location": "com.hrms.steps.LoginSteps.user_see(java.lang.String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@sprint5"
+          },
+          {
+            "name": "@login"
+          },
+          {
+            "name": "@reporting"
+          }
+        ]
+      }
+    ],
+    "name": "Login",
+    "description": "",
+    "id": "login",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/features/Login.feature",
+    "tags": [
+      {
+        "name": "@sprint5",
+        "type": "Tag",
+        "location": {
+          "line": 2,
+          "column": 1
+        }
+      },
+      {
+        "name": "@login",
+        "type": "Tag",
+        "location": {
+          "line": 2,
+          "column": 10
+        }
+      }
+    ]
+  }
+]
